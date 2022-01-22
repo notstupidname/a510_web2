@@ -1,0 +1,25 @@
+plugins:
+  - jekyll-seo-tag
+  
+collections:
+  catalog:
+    output: false
+
+social:
+  name: A510
+  links:
+    - https://www.facebook.com/a510ru
+    - https://www.instagram.com/a510ru
+
+logo: /images/logo.jpg
+url: https://a510.ru
+
+title: ""
+lang: "ru_RU"
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      image: /images/logo.jpg
