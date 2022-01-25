@@ -1,12 +1,16 @@
 ---
 title: Brut.studio - Контакты
 description: Контакты архитектурного бюро BRUT. Адрес, телефон, схема проезда.
-layout: project
-permalink: /project
+layout: portfolio_project
+permalink: /portfolio_project
 
-page_title: Каркасный эконом дуплекс TM-120
+page_title: Какой-то дом на каком-то море
 ---
-Эволюция нашего любимого черного дуплекса ТМ-120. Сохранив узнаваемую форму, мы пересмотрели концепцию дома: из черного дуплекса эконом класса вырос прекрасный белый дуплекс премиум класса. В экстерьере дома учтены современные тенденции европейской архитектуры в стиле барнхаус, а планировка стала более легкой и свободной, при этом сохранив узнаваемые черты исходного проекта.
+## Header2
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae arcu imperdiet, aliquam nibh ac, suscipit elit. Nulla id orci vel nibh rutrum facilisis. Sed luctus nisl at hendrerit aliquet. Sed nec venenatis sapien. Curabitur et ex vel eros dictum varius sit amet quis augue. Donec non elit non felis porttitor facilisis. Proin non sapien non nunc facilisis mollis. Nullam eleifend vulputate consectetur. Vestibulum nec elementum nisl. Morbi vitae aliquet nisi, ut luctus lacus. Fusce lobortis tempus eleifend. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse aliquam tempus velit, nec posuere libero tempus quis. Aliquam in ullamcorper nisi. Sed vitae est quis risus venenatis fringilla et at lorem. Sed sit amet felis quis tellus tempus hendrerit eget nec nibh.
+
+Nullam vel libero eu magna accumsan consequat id ut enim. Nulla tempor tristique ligula, non tristique leo placerat quis. Fusce aliquam, lacus at mollis lobortis, augue sem sagittis enim, eu consequat magna eros et mi. Proin risus nisl, ullamcorper id dignissim sed, placerat id diam. Vivamus suscipit nec purus ac tempus. Pellentesque tellus est, elementum nec mi eget, aliquam lobortis sem. Vestibulum dapibus lorem laoreet suscipit dignissim. Nunc arcu erat, fringilla ut dictum sed, convallis id lectus.
 
 ### Header3
 
