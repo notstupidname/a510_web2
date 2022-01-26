@@ -865,7 +865,7 @@
 #wrapper {
 	margin: 0 22em;
 	margin-right: 5%;
-	padding: 0 0 0 1em;
+	padding: 3rem 0 0 1em;
 	min-height: 100vh;
 }
 
@@ -1236,26 +1236,25 @@ header.mobile {
 	contain: content;
 }
 
-	.item footer {
+	.item .caption {
 		display: flex;
 		align-items: flex-end;
 		justify-content: space-between;
 		font-family: 'Roboto Mono';
 	}
 
-		.item footer h2 {
+		.item .caption h2 {
 			font-size: 1.2em;
 			margin: 1rem 0 0.2rem 0;
 			font-weight: 400;
-			transition: all 0.3s ease-in-out;
 		}
 
-		.item footer h3 {
+		.item .caption h3 {
 			font-size: 1em;
 			margin-bottom: 0;
 		}
 
-		.item footer p {
+		.item .caption p {
 			font-size: 1.4em;
 			margin-bottom: 0;
 			line-height: 1em;
