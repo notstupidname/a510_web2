@@ -1222,7 +1222,15 @@ header.mobile {
 		
 		.items {
 			grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-			gap: 20px 10px;
+			position: relative;
+			width: 100vw;
+			left: 50%;
+			margin-left: -50vw;
+			font-size: 75%;
+		}
+
+		.items .caption{
+			padding: 0 1em;
 		}
 	}
 
