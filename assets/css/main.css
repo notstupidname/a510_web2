@@ -1225,16 +1225,16 @@ header.mobile {
 	@media screen and (max-width: 980px) {
 		
 		.items {
-			/* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); */
+			grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 			position: relative;
-			width: 100vw;
+			/* width: 100vw;
 			left: 50%;
-			margin-left: -50vw;
+			margin-left: -50vw; */
 			font-size: 75%;
 		}
 
 		.items .caption{
-			padding: 0 1em;
+			/* padding: 0 1em; */
 		}
 	}
 
