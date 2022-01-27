@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;325;350;375;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;325;350;375;400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Podkova:wght@300;325;350;375;400;500&display=swap');
 
 
 :root {
@@ -120,6 +119,8 @@
 	svg {
 		vertical-align: middle;
 		fill: var(--text-color);
+		stroke: var(--text-color);
+		background-color: var(--back-color);
 	}
 
 	a {
@@ -153,7 +154,7 @@
 
 	p {
 		margin: 0 0 1em 0;
-		max-width: 65em;
+		/* max-width: 65em; */
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -460,7 +461,6 @@
 		list-style: disc;
 		margin: 0 0 2em 0;
 		padding-left: 1em;
-		max-width: 65em;
 	}
 
 		ul li {
@@ -505,7 +505,6 @@
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
-			margin-top: 2em;
 		}
 
 			ul.actions li {
@@ -1221,7 +1220,7 @@ header.mobile {
 	@media screen and (max-width: 980px) {
 		
 		.items {
-			grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+			/* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); */
 			position: relative;
 			width: 100vw;
 			left: 50%;
@@ -1258,7 +1257,7 @@ header.mobile {
 		}
 
 		.item .caption h3 {
-			font-size: 1em;
+			font-size: 0.85em;
 			margin-bottom: 0;
 		}
 
@@ -1273,17 +1272,16 @@ header.mobile {
 	margin-top: 3em;
 }
 
-/* Product */
-.product {
+/* Project */
+.project-top-grid {
 	display: grid;
-	grid-template-columns: 1fr 2fr;
-	grid-gap: 2em;
+	grid-template-columns: 62fr 38fr;
 }
 
-	/* .product span {
-		font-size: 1.25em;
-		margin-bottom: 0.5em;
-	} */
+.project-plans-grid {
+	display: grid;
+	grid-template-columns: 4fr 1fr;
+}
 
 @media screen and (max-width: 480px) {
 	.product {
