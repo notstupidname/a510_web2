@@ -12,7 +12,11 @@
 			<article>
 				
 				<div class="container">
-					<img class="image fit" src="/images/pic169_2.jpg"/>
+					<picture>
+						<source media="(max-width: 480px)" srcset="/images/pic34_2.jpg" />
+						<source media="(min-width: 481px)" srcset="/images/pic169_2.jpg" />
+						<img class="image fit fw" src="/images/pic169_2.jpg"/>
+					</picture>
 					<header class="main-header">
 						<h1>{{page.page_title}}</h1>
 					</header>
@@ -1325,6 +1329,7 @@
 								</clipPath>
 								</defs>
 							</svg>
+							<hr />
 							<h2>План 2-го этажа</h2>
 							<svg id="svg_plan2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="288pt" version="1.1" style="--lw-1:0.05; --lw-2:0.09; --lw-3:0.13; --lw-4:0.3; --lw-5:0.4; width: 100%; height: auto; max-height: 100vh; --lw-6:0.5;" viewBox="0 0 458.950137 288" width="458.950137pt">
 								<defs>
@@ -2620,6 +2625,7 @@
 								</clipPath>
 								</defs>
 							</svg>
+							<hr />
 						</div>
 						<div>
 							<h3>Технические параметры</h3>
@@ -2677,6 +2683,7 @@
 									</tbody>
 								</table>
 							</div>
+							<hr />
 							<h3>Дополнительные опции</h3>
 							<div class="table-wrapper">
 								<table class="price">
@@ -2723,9 +2730,12 @@
 						</div>
 					</section>
 					<section class="project-photo">
-						<img class="image fit" src="/images/pic169_2.jpg"/>
-						<img class="image fit" src="/images/pic169_2.jpg"/>
-						<img class="image fit" src="/images/pic169_2.jpg"/>
+						<img class="image fit fw" src="/images/pic169_2.jpg"/>
+						<hr />
+						<img class="image fit fw" src="/images/pic169_2.jpg"/>
+						<hr />
+						<img class="image fit fw" src="/images/pic169_2.jpg"/>
+						<hr />
 					</section>
 					{{content}}
 					<a id='backtotop' href="#">Наверх</a>
